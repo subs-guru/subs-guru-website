@@ -1,29 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>SUBS GURU by subs-guru</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <title>SUBS GURU by subs-guru</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
+    <header>
+      <div class="inner">
         <h1>SUBS GURU</h1>
-        <p>Open-source subscription mangement system and recuring billing</p>
+        <h2>Open-source subscription mangement system and recuring billing</h2>
+        <a href="https://github.com/subs-guru" class="button"><small>Follow me on</small> GitHub</a>
+      </div>
+    </header>
 
-
-        <p class="view"><a href="https://github.com/subs-guru">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <h3>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h3>
 <a id="subs-guru" class="anchor" href="#subs-guru" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Subs Guru</h3>
 
 <p>The solution that makes you zen again !</p>
@@ -33,12 +38,129 @@
 </h3>
 
 
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+
+<h1>
+<a id="subsguru" class="anchor" href="#subsguru" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SUBS.GURU</h1>
+
+<p>Recurring billing subscriptions</p>
+
+<p><strong>Features</strong>:</p>
+
+<ul>
+<li>Multilingual BackOffice  (English and French)</li>
+<li>Multilingual Plans</li>
+<li>Multicurrency</li>
+<li>Integration via REST API and webhook for events</li>
+<li>Configuration in YAML</li>
+</ul>
+
+<p><strong>Light</strong> Technical requirements:</p>
+
+<ul>
+<li>PHP 5.6</li>
+<li>MySQL 5.5</li>
+</ul>
+
+<p><strong>Organization</strong>:</p>
+
+<ul>
+<li>Customer</li>
+<li>Plan: subscription template</li>
+<li>Subscription: a plan (possibly customised) for a client</li>
+<li>Contract: group subscriptions for a customer</li>
+</ul>
+
+<h2>
+<a id="subscription-management" class="anchor" href="#subscription-management" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Subscription Management</h2>
+
+<p><strong>Recurrency</strong>:</p>
+
+<ul>
+<li>Per year, month, week or day ...</li>
+<li>Calendar months or years, or renewed on anniversary</li>
+<li>Automatic renewal or not</li>
+<li>Minimum and maximum contract duration</li>
+<li>Trial period</li>
+</ul>
+
+<p><strong>Pay per use</strong>:</p>
+
+<ul>
+<li>Metered options</li>
+<li>3 types: cumulative, limit or reset,</li>
+<li>Prorating quantities or not.</li>
+</ul>
+
+<p><strong>Option management</strong> :</p>
+
+<ul>
+<li>A plan can be changed (if allowed)</li>
+<li>You can add options to a defined plan</li>
+<li>You can add setup fees</li>
+</ul>
+
+<p><strong>Permissions provisionning</strong> on your software.</p>
+
+<h2>
+<a id="billing-management" class="anchor" href="#billing-management" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Billing Management</h2>
+
+<p><strong>Automatic Invoice Generation</strong> on a schedule defined automatically or manually:</p>
+
+<ul>
+<li>Payment in installments (2x, 3x, 4x, etc.)</li>
+<li>Upfront invoice or end of period</li>
+<li>Discount nanagement (in percentage or dollars for a limited period or permanent)</li>
+<li>Proratisation when changing an option or subscription</li>
+</ul>
+
+<p><strong>Combining multiple subscriptions on one invoice.</strong></p>
+
+<p><strong>Non recurrent invoice</strong></p>
+
+<p>*<em>Advanced taxes *</em> (per state / country and Euro VAT)</p>
+
+<p>*<em>Credit note *</em></p>
+
+<h2>
+<a id="payment-management" class="anchor" href="#payment-management" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Payment Management</h2>
+
+<p><strong>Integrated Payment</strong></p>
+
+<ul>
+<li>SEPA direct debits (SEPA XML file)</li>
+<li>Manual payments (check, bank transfer...)</li>
+<li>Payline,</li>
+<li>Stripe * (soon)</li>
+<li>Braintree * (soon).</li>
+</ul>
+
+<p><strong>Independent of invoices and payments</strong></p>
+
+<ul>
+<li>For each contract period  you can choose the number of invoice or payment.</li>
+<li>An invoice can be paid in several installments.</li>
+<li>A manual payment can also be assigned to multiple invoices.</li>
+</ul>
+
+<p><strong>Refunds</strong> </p>
+
+<h2>
+<a id="customer-management" class="anchor" href="#customer-management" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Customer Management</h2>
+
+<ul>
+<li>Specific email address for invoices for accounting</li>
+<li>Custom fields</li>
+</ul>
+        </section>
+
+        <aside id="sidebar">
+
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+
+  
   </body>
 </html>
