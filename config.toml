@@ -211,10 +211,9 @@ publishDir = "docs"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "72 rue de la République, Seine Innopolis,<br>76140 Le Petit-Quevilly"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@subsguru.fr"],
-        ["icon-globe", '<a href="#" target="_blank">subs·GURU </a>']
+        ["icon-home", "72 rue de la République, Seine Innopolis,<br>76140 Le Petit-Quevilly, FRANCE"],
+        ["icon-envelope", "team@subs.guru"],
+        ["icon-globe", "Made with ❤ in Normandy"]
       ]
 
     name = "Name"
