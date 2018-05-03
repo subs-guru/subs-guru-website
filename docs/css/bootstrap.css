@@ -103,6 +103,7 @@ sub {
 
 img {
   border: 0;
+  margin-top: 15px;
 }
 
 svg:not(:root) {
@@ -2412,6 +2413,17 @@ pre code {
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
+  }
+  @media (min-width: 992px) {
+    .col-md-149 {
+      float: left;
+      width: 48%;
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 50px;
+    }
   }
 
   .col-md-1 {
@@ -4781,7 +4793,6 @@ tbody.collapse.in {
 
 .navbar-brand {
   float: left;
-  padding: 17.5px 15px;
   font-size: 18px;
   line-height: 20px;
   height: 55px;
@@ -6328,6 +6339,7 @@ button.list-group-item-danger.active:focus {
   height: 100%;
   width: 100%;
   border: 0;
+  background-image: #4563BA;
 }
 
 .embed-responsive-16by9 {

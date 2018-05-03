@@ -99,13 +99,6 @@ publishDir = "docs"
     img = "img_7.jpg"
 
 
-  [params.intro.video]
-    enable = true
-    title = "Watch the video"
-    icon = "icon-play2"
-    url = "https://www.youtube.com/watch?time_continue=94&v=SCA9_0UtzSg"
-
-
   # Testimonials section
   [params.testimonials]
     enable = true
@@ -211,9 +204,9 @@ publishDir = "docs"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "72 rue de la République, Seine Innopolis,<br>76140 Le Petit-Quevilly, FRANCE"],
+        ["icon-home", "72 rue de la République, Seine Innopolis,<br>76140 Le Petit-Quevilly, France"],
         ["icon-envelope", "team@subs.guru"],
-        ["icon-globe", "Made with ❤ in Normandy"]
+        ["icon-globe", '<a href="#" target="_blank">subs·GURU ']
       ]
 
     name = "Name"
