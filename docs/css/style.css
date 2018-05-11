@@ -443,13 +443,14 @@ h2 {
   margin-left: auto !important;
   margin-right: auto !important;
   margin-top: 10px !important;
+}
 
 
 
 }
 @media screen and (max-width: 768px) {
   #fh5co-home .text-inner{
-    padding-top: 100px !important;
+    padding-top: 50px !important;
   }
 }
 @media screen and (max-width: 768px) {
@@ -550,7 +551,8 @@ h2 {
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro .fh5co-block {
-    width: 100%;
+    width: 100% !important
+    padding: 10px !important;
   }
 
 
@@ -572,8 +574,25 @@ h2 {
   transition: 0.5s;
 }
 #fh5co-intro .fh5co-block > .fh5co-text {
+
+  width: 33%;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  vertical-align: middle;
+  padding: 30px;
+  margin: 1px;
+  background: #fff;
+  -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  -ms-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  -o-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  z-index: 7;
+  flex-grow: 1;
+  background-size: cover;
   position: relative;
-  z-index: 10;
+  background-repeat: no-repeat;
 }
 #fh5co-intro .fh5co-block > .fh5co-text .fh5co-intro-icon {
   font-size: 50px;
