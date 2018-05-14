@@ -458,6 +458,12 @@ h2 {
     font-size: 20px !important;
   }
 }
+.titre {
+  font-size: 80px;
+  color: white;
+  margin: 0 0 20px 0;
+
+}
 }
 #fh5co-home .text-inner h1 {
   font-size: 80px;
