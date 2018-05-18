@@ -12,7 +12,7 @@ publishDir = "docs"
   # Meta
   author = ""
   description = ""
-  email = "fabrice@sb.am"
+  email = "fabrice.cottin9@gmail.com"
   # Navigation
   [params.navigation]
     brand = "subs·GURU"
