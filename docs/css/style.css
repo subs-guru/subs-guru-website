@@ -681,8 +681,7 @@ h2 {
       float: right;
       border: 2px solid white;
       box-shadow: 0px 0px 10px 0px white;
-      border-radius: 15px;
-
+      
 }
 @media screen and (max-width: 768px) {
   .left {
